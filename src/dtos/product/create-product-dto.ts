@@ -1,9 +1,8 @@
-export interface CreateProductDTO  {
-    id: number,
-    title: string,
-    categoryTitle: string,
-    realPrice: number,
-    salesPrice: number,
-    qty: number,
-    createdAt: "2024-07-28T08:54:50.590Z"
-  }
+export interface CreateProductDTO{
+  title: string;
+  categoryID: number;
+  realPrice: number;
+  salesPrice: number;
+  qty: number;
+  isPublished: boolean;
+}

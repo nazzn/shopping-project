@@ -1,19 +1,13 @@
-import React from 'react'
-import PublicLayout from '../../layouts/public-layout'
-
-const HomePageContent : React.FC = () => {
-    return (
-      <div>HomePage-page</div>
-    )
-  }
+import React from "react";
+import PublicLayout from "../../layouts/public-layout";
 
 
-const HomePage : React.FC = () => {
+const HomePage: React.FC = () => {
   return (
     <PublicLayout>
-        <HomePageContent />
+      <></>
     </PublicLayout>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;
